@@ -60,7 +60,7 @@ export default function MovieQuery({ params }) {
         <div className="w-full h-full p-5 container">
             <div className="mt-10 mb-10">
                 <p className="tracking-tight text-2xl font-bold">Querying</p>
-                <p className="text-sm text-neutral-500">Showing results for "{params.movieTitle.replace('%20', ' ')}"</p>
+                <p className="text-sm text-neutral-500">Showing results for &quot;{params.movieTitle.replace('%20', ' ')}&quot;</p>
             </div>
             {resultsList.length === 0 && <p>Getting results...</p>}
             {resultsList.length !== 0 && (

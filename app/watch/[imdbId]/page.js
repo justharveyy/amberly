@@ -18,7 +18,7 @@ export default function Watch({params}) {
                 <div className="mb-5">
                     <a href="/" className="px-2 py-1.5 bg-white text-black rounded-md">Return to main page</a>
                 </div>
-                <iframe src={url} className="w-full h-full"></iframe>
+                <iframe src={url} className="w-full lg:h-[800px] md:h-[400px] h-[300px]"></iframe>
             </div>
         </div>
     )

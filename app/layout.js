@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className + " dark"}>
+        <div className="hidden">i love u duong</div>
         {children}
         <Toaster
           toastOptions={{
